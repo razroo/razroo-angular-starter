@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:docker": "docker image build -t razroo-angular-starter .",
+    "start:docker": "docker run -p 3000:80 --rm razroo-angular-starter",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
