@@ -17,7 +17,8 @@
     "paths": {
       "@razroo-angular-starter/common/styles": [
         "libs/common/styles/src/index.ts"
-      ]
+      ],
+      "@razroo-angular-starter/common/ui": ["libs/common/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
