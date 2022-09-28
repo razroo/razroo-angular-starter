@@ -1,6 +1,7 @@
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Component, OnInit, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 @Component({
   selector: 'razroo-angular-starter-header',
@@ -8,17 +9,18 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./global-header.component.scss'],
 })
 export class GlobalHeaderComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }
 
 @NgModule({
   imports: [
     CommonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FontAwesomeModule
   ],
   declarations: [GlobalHeaderComponent],
   exports: [MatToolbarModule, GlobalHeaderComponent],
 })
-export class GlobalHeaderModule {}
+export class GlobalHeaderModule { }
