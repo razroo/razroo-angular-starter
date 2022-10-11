@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/common/styles",
+  "sourceRoot": "libs/common/styles/src",
+  "prefix": "razroo-angular-starter",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/common/styles"],
+      "options": {
+        "jestConfig": "libs/common/styles/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/common/styles/src/**/*.ts",
+          "libs/common/styles/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
