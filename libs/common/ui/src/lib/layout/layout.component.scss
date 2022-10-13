@@ -1,0 +1,45 @@
+$header-height: 64px;
+$card-padding-bottom: $header-height;
+
+:host {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - #{$header-height});
+}
+
+// small screen
+.Layout {
+  padding: 6%;
+}
+
+.Layout {
+  max-width: 599px;
+  width: 100%;
+  // box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  padding: 0 16px;
+  margin: 16px 0;
+}
+
+@media screen and (min-width: 959px) {
+  .Layout {
+    width: 90vw;
+    max-width: 1280px;
+    // box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    padding: 32px 64px;
+    margin: 32px 0;
+  }
+}
+
+@media screen and (min-width: 1919px) {
+  .Layout {
+    max-width: 1919px;
+  }
+}
+
+.not-paid-container {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10%;
+}
