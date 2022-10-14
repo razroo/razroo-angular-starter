@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from '../home/home.component';
+import { LayoutComponent } from '@razroo-angular-starter/common/ui';
 
 const homeRoutes: Routes = [
   {
