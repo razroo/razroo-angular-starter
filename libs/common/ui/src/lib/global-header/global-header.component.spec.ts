@@ -1,24 +1,24 @@
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { Component, OnInit, NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
-@Component({
-  selector: 'razroo-angular-starter-header',
-  templateUrl: './global-header.component.html',
-  styleUrls: ['./global-header.component.scss'],
-})
-export class GlobalHeaderComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-}
-
-@NgModule({
-  imports: [
-    CommonModule,
-    MatToolbarModule
-  ],
-  declarations: [GlobalHeaderComponent],
-  exports: [MatToolbarModule, GlobalHeaderComponent],
-})
-export class GlobalHeaderModule {}
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { GlobalHeaderComponent } from './global-header.component';
+ 
+describe('GlobalComponent', () => {
+  let component: GlobalHeaderComponent;
+  let fixture: ComponentFixture<GlobalHeaderComponent>;
+ 
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ GlobalHeaderComponent ]
+    })
+    .compileComponents();
+  });
+ 
+  beforeEach(() => {
+    fixture = TestBed.createComponent(GlobalHeaderComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+ 
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
