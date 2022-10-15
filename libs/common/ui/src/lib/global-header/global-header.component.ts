@@ -1,6 +1,8 @@
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { Component, OnInit, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { faBell, faQuestionCircle, faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 @Component({
   selector: 'razroo-angular-starter-global-header',
@@ -8,17 +10,22 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./global-header.component.scss'],
 })
 export class GlobalHeaderComponent implements OnInit {
-  constructor() {}
+  faUserCircle = faUserCircle;
+  faQuestionCircle = faQuestionCircle;
+  faBell = faBell;
 
-  ngOnInit(): void {}
+  constructor() { }
+
+  ngOnInit(): void { }
 }
 
 @NgModule({
   imports: [
     CommonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FontAwesomeModule
   ],
   declarations: [GlobalHeaderComponent],
   exports: [MatToolbarModule, GlobalHeaderComponent],
 })
-export class GlobalHeaderModule {}
+export class GlobalHeaderModule { }
