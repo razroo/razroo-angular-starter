@@ -10,7 +10,8 @@
     "test": "node 'node_modules/.bin/jest'",
     "jest": "npm run jest",
     "e2e": "nx e2e razroo-angular-starter-e2e",
-    "cypress:run": "nx razroo-angular-starter-e2e --watch"
+    "cypress:run": "nx razroo-angular-starter-e2e --watch",
+    "test:ci": "npm run nx -- run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./tools/coverageMerger.js"
   },
   "private": true,
   "dependencies": {
