@@ -1,0 +1,23 @@
+.GlobalFooter {
+  height: 50px;
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  padding: 0 rz-space-multiplier(2);
+  font-size: 10px;
+  &-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-links {
+    margin-left: auto;
+    color: var(--text-primary-color);
+  }
+  &-separator {
+    padding-left: 4px;
+    padding-right: 4px
+  }
+}
