@@ -23,10 +23,13 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@apollo/client": "^3.7.0",
     "@fortawesome/angular-fontawesome": "^0.10.2",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@nrwl/angular": "13.10.5",
+    "apollo-angular": "^3.0.1",
+    "graphql": "^16.6.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
