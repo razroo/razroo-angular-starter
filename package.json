@@ -61,7 +61,13 @@
     "@nrwl/eslint-plugin-nx": "13.10.5",
     "@nrwl/jest": "13.10.5",
     "@nrwl/linter": "13.10.5",
+    "@nrwl/storybook": "^15.0.0",
     "@nrwl/workspace": "13.10.5",
+    "@storybook/addon-essentials": "~6.4.12",
+    "@storybook/angular": "~6.4.12",
+    "@storybook/builder-webpack5": "~6.4.12",
+    "@storybook/core-server": "~6.4.12",
+    "@storybook/manager-webpack5": "~6.4.12",
     "@types/jest": "27.0.2",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "~5.18.0",
@@ -76,6 +82,7 @@
     "nx": "13.10.5",
     "prettier": "^2.5.1",
     "ts-jest": "27.0.5",
-    "typescript": "~4.6.2"
+    "typescript": "~4.6.2",
+    "webpack": "^5.64.0"
   }
 }
