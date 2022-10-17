@@ -18,6 +18,9 @@
       "@razroo-angular-starter/common/environments": [
         "libs/common/environments/src/index.ts"
       ],
+      "@razroo-angular-starter/common/services": [
+        "libs/common/services/src/index.ts"
+      ],
       "@razroo-angular-starter/common/styles": [
         "libs/common/styles/src/index.ts"
       ],
