@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/data-graphql",
+  "sourceRoot": "libs/data-graphql/src",
+  "prefix": "razroo-angular-starter",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/data-graphql"],
+      "options": {
+        "jestConfig": "libs/data-graphql/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/data-graphql/src/**/*.ts",
+          "libs/data-graphql/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
