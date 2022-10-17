@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/common/guards",
+  "sourceRoot": "libs/common/guards/src",
+  "prefix": "razroo-angular-starter",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/common/guards"],
+      "options": {
+        "jestConfig": "libs/common/guards/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/common/guards/src/**/*.ts",
+          "libs/common/guards/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
