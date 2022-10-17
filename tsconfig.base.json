@@ -19,6 +19,7 @@
         "libs/common/styles/src/index.ts"
       ],
       "@razroo-angular-starter/common/ui": ["libs/common/ui/src/index.ts"],
+      "@razroo-angular-starter/data-access": ["libs/data-access/src/index.ts"],
       "@razroo-angular-starter/home": ["libs/home/src/index.ts"]
     }
   },
