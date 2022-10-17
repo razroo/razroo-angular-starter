@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/data-services",
+  "sourceRoot": "libs/data-services/src",
+  "prefix": "razroo-angular-starter",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/data-services"],
+      "options": {
+        "jestConfig": "libs/data-services/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/data-services/src/**/*.ts",
+          "libs/data-services/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
