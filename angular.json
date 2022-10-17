@@ -5,6 +5,7 @@
     "common-ui": "libs/common/ui",
     "data-access": "libs/data-access",
     "data-graphql": "libs/data-graphql",
+    "data-models": "libs/data-models",
     "data-services": "libs/data-services",
     "home": "libs/home",
     "razroo-angular-starter": "apps/razroo-angular-starter",

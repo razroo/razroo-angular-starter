@@ -23,6 +23,7 @@
       "@razroo-angular-starter/data-graphql": [
         "libs/data-graphql/src/index.ts"
       ],
+      "@razroo-angular-starter/data-models": ["libs/data-models/src/index.ts"],
       "@razroo-angular-starter/data-services": [
         "libs/data-services/src/index.ts"
       ],
