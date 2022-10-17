@@ -11,7 +11,8 @@
     "jest": "npm run jest",
     "e2e": "nx e2e razroo-angular-starter-e2e",
     "cypress:run": "nx razroo-angular-starter-e2e --watch",
-    "test:ci": "npm run nx -- run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./tools/coverageMerger.js"
+    "test:ci": "npm run nx -- run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./tools/coverageMerger.js",
+    "lint:ci": "nx run-many --all --target=lint && ng lint"
   },
   "private": true,
   "dependencies": {
