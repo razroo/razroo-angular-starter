@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "common-environments": "libs/common/environments",
     "common-styles": "libs/common/styles",
     "common-ui": "libs/common/ui",
     "data-access": "libs/data-access",

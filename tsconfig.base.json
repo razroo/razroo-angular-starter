@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@razroo-angular-starter/common/environments": [
+        "libs/common/environments/src/index.ts"
+      ],
       "@razroo-angular-starter/common/styles": [
         "libs/common/styles/src/index.ts"
       ],
