@@ -9,7 +9,8 @@
     "build": "nx build",
     "test": "node 'node_modules/.bin/jest'",
     "jest": "npm run jest",
-    "e2e": "nx e2e razroo-angular-starter-e2e"
+    "e2e": "nx e2e razroo-angular-starter-e2e",
+    "cypress:run": "nx razroo-angular-starter-e2e --watch"
   },
   "private": true,
   "dependencies": {
