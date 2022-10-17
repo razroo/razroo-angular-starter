@@ -1,4 +1,11 @@
-<mat-toolbar class="GlobalHeader" color="primary">
+<mat-toolbar class="GlobalHeader" color="primary"
+  ><button
+    mat-icon-button=""
+    class="small-icon-button"
+    (click)="emitSideNavToggle()"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
   Sample header
   <div class="Toolbar__Icons">
     <fa-icon
