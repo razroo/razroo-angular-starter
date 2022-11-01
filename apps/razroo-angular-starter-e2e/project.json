@@ -1,5 +1,5 @@
 {
-  "root": "apps/razroo-angular-starter-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/razroo-angular-starter-e2e/src",
   "projectType": "application",
   "targets": {

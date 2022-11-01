@@ -1,6 +1,6 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "root": "apps/razroo-angular-starter",
   "sourceRoot": "apps/razroo-angular-starter/src",
   "prefix": "razroo-angular-starter",
   "targets": {
@@ -83,9 +83,9 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/razroo-angular-starter"],
+      "outputs": ["{workspaceRoot}/coverage/apps/razroo-angular-starter"],
       "options": {
-        "jestConfig": "apps/razroo-angular-starter/jest.config.js",
+        "jestConfig": "apps/razroo-angular-starter/jest.config.ts",
         "passWithNoTests": true
       }
     }
