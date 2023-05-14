@@ -1,4 +1,5 @@
 {
+  "name": "razroo-angular-starter",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/razroo-angular-starter/src",
@@ -73,7 +74,7 @@
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
+      "executor": "@nx/linter:eslint",
       "options": {
         "lintFilePatterns": [
           "apps/razroo-angular-starter/src/**/*.ts",
@@ -82,7 +83,7 @@
       }
     },
     "test": {
-      "executor": "@nrwl/jest:jest",
+      "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/apps/razroo-angular-starter"],
       "options": {
         "jestConfig": "apps/razroo-angular-starter/jest.config.ts",

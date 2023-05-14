@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "projects": {
-    "razroo-angular-starter": "apps/razroo-angular-starter",
-    "razroo-angular-starter-e2e": "apps/razroo-angular-starter-e2e"
-  }
-}
