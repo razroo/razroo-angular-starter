@@ -1,10 +1,11 @@
 {
+  "name": "razroo-angular-starter-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/razroo-angular-starter-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
-      "executor": "@nrwl/cypress:cypress",
+      "executor": "@nx/cypress:cypress",
       "options": {
         "cypressConfig": "apps/razroo-angular-starter-e2e/cypress.json",
         "devServerTarget": "razroo-angular-starter:serve:development"
@@ -16,7 +17,7 @@
       }
     },
     "lint": {
-      "executor": "@nrwl/linter:eslint",
+      "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": ["apps/razroo-angular-starter-e2e/**/*.{js,ts}"]
